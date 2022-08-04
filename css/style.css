@@ -1427,6 +1427,11 @@ img.svg {
 	margin-bottom: 21px;
 }
 
+.arlo_tm_services_wrap .list_wrap ul li .icon svg {
+	width: auto;
+	font-size: 45px;
+}
+
 .arlo_tm_services_wrap .list_wrap ul li .icon .svg {
 	width : 40px;
 	height: 40px;
@@ -1692,6 +1697,7 @@ img.svg {
 
 .entry {
 	position: relative;
+	box-shadow: 0px 9px 20px 1px #00000010;
 }
 
 .arlo_tm_portfolio_image_main {
