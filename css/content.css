@@ -1,0 +1,738 @@
+.tarrot_unselectable {
+    -webkit-user-select: none !important;
+    -moz-user-select   : none !important;
+    -ms-user-select    : none !important;
+    user-select        : none !important
+}
+
+.tarrot_overflow_hidden {
+    overflow: hidden
+}
+
+div[mx-name=tarrot-translation] {
+    all: initial
+}
+
+@font-face {
+    font-family: tarrot-icon;
+    src        : url(chrome-extension://emelgiiiemoiljnmikcgbmjkapalgcme/css/tarrot_icon.woff2) format('woff2')
+}
+
+@font-face {
+    font-family: tarrot-icon;
+    src        : url(chrome-extension://emelgiiiemoiljnmikcgbmjkapalgcme/css/iconfont.woff2) format('woff2')
+}
+
+@-moz-document url-prefix() {
+    @font-face {
+        font-family: tarrot-icon;
+        src        : url(moz-extension://emelgiiiemoiljnmikcgbmjkapalgcme/css/tarrot_icon.woff2) format('woff2')
+    }
+}
+
+.tarrot-icon {
+    font-family            : tarrot-icon, serif !important;
+    font-size              : 14px;
+    font-style             : normal;
+    -webkit-font-smoothing : antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    user-select            : none
+}
+
+.tarrot-icon-crop:before {
+    content: "\e6c8"
+}
+
+.tarrot-icon-logo:before {
+    content: "\e6c7"
+}
+
+.tarrot-icon-move:before {
+    content: "\e6c6"
+}
+
+.tarrot-icon-folder:before {
+    content: "\e6c4"
+}
+
+.tarrot-icon-folder-open:before {
+    content: "\e6c5"
+}
+
+.tarrot-icon-delete:before {
+    content: "\e6c2"
+}
+
+.tarrot-icon-edit:before {
+    content: "\e6c3"
+}
+
+.tarrot-icon-export:before {
+    content: "\e6c0"
+}
+
+.tarrot-icon-import:before {
+    content: "\e6c1"
+}
+
+.tarrot-icon-history:before {
+    content: "\e6bf"
+}
+
+.tarrot-icon-oxford:before {
+    content: "\e6be"
+}
+
+.tarrot-icon-thefree:before {
+    content: "\e6bd"
+}
+
+.tarrot-icon-wikipedia:before {
+    content: "\e6b0"
+}
+
+.tarrot-icon-dreye:before {
+    content: "\e6bc"
+}
+
+.tarrot-icon-eudic:before {
+    content: "\e6bb"
+}
+
+.tarrot-icon-etymonline:before {
+    content: "\e6b1"
+}
+
+.tarrot-icon-rrdict:before {
+    content: "\e6b9"
+}
+
+.tarrot-icon-lexico:before {
+    content: "\e6ba"
+}
+
+.tarrot-icon-urban:before {
+    content: "\e6b8"
+}
+
+.tarrot-icon-macmillan:before {
+    content: "\e6b7"
+}
+
+.tarrot-icon-vocabulary:before {
+    content: "\e6b6"
+}
+
+.tarrot-icon-wordreference:before {
+    content: "\e6b5"
+}
+
+.tarrot-icon-collins:before {
+    content: "\e6b4"
+}
+
+.tarrot-icon-iciba:before {
+    content: "\e6b3"
+}
+
+.tarrot-icon-hjdict:before {
+    content: "\e6b2"
+}
+
+.tarrot-icon-dictionary:before {
+    content: "\e6af"
+}
+
+.tarrot-icon-so:before {
+    content: "\e6aa"
+}
+
+.tarrot-icon-merriam:before {
+    content: "\e6ab"
+}
+
+.tarrot-icon-longman:before {
+    content: "\e6ac"
+}
+
+.tarrot-icon-cambridge:before {
+    content: "\e6ad"
+}
+
+.tarrot-icon-dictcn:before {
+    content: "\e6ae"
+}
+
+.tarrot-icon-sound-us:before {
+    content: "\e674"
+}
+
+.tarrot-icon-sound-zh:before {
+    content: "\e675"
+}
+
+.tarrot-icon-sound-fr:before {
+    content: "\e676"
+}
+
+.tarrot-icon-sound-de:before {
+    content: "\e677"
+}
+
+.tarrot-icon-sound-th:before {
+    content: "\e69c"
+}
+
+.tarrot-icon-sound-ru:before {
+    content: "\e69d"
+}
+
+.tarrot-icon-sound-pt:before {
+    content: "\e69e"
+}
+
+.tarrot-icon-sound-uk:before {
+    content: "\e69f"
+}
+
+.tarrot-icon-sound-jp:before {
+    content: "\e6a0"
+}
+
+.tarrot-icon-sound-el:before {
+    content: "\e6a1"
+}
+
+.tarrot-icon-sound-cn:before {
+    content: "\e6a2"
+}
+
+.tarrot-icon-sound-nl:before {
+    content: "\e6a3"
+}
+
+.tarrot-icon-sound-it:before {
+    content: "\e6a4"
+}
+
+.tarrot-icon-sound-sp:before {
+    content: "\e6a5"
+}
+
+.tarrot-icon-sound-ko:before {
+    content: "\e6a6"
+}
+
+.tarrot-icon-sound-ar:before {
+    content: "\e6a7"
+}
+
+.tarrot-icon-sound-en:before {
+    content: "\e6a8"
+}
+
+.tarrot-icon-sound-pl:before {
+    content: "\e6a9"
+}
+
+.tarrot-icon-youdao:before {
+    content: "\e693"
+}
+
+.tarrot-icon-sound-square:before {
+    content: "\e69b"
+}
+
+.tarrot-icon-sound:before {
+    content: "\e67a"
+}
+
+.tarrot-icon-user:before {
+    content: "\e699"
+}
+
+.tarrot-icon-angle-double-right:before {
+    content: "\e696"
+}
+
+.tarrot-icon-angle-double-left:before {
+    content: "\e697"
+}
+
+.tarrot-icon-angle-double-up:before {
+    content: "\e698"
+}
+
+.tarrot-icon-angle-double-down:before {
+    content: "\e69a"
+}
+
+.tarrot-icon-youdaonote:before {
+    content: "\e691"
+}
+
+.tarrot-icon-youtube:before {
+    content: "\e692"
+}
+
+.tarrot-icon-windows:before {
+    content: "\e694"
+}
+
+.tarrot-icon-yahoo:before {
+    content: "\e695"
+}
+
+.tarrot-icon-voice-off:before {
+    content: "\e68a"
+}
+
+.tarrot-icon-voice-on:before {
+    content: "\e68b"
+}
+
+.tarrot-icon-voice:before {
+    content: "\e68c"
+}
+
+.tarrot-icon-video:before {
+    content: "\e68d"
+}
+
+.tarrot-icon-vip-crown:before {
+    content: "\e68e"
+}
+
+.tarrot-icon-vip-fill:before {
+    content: "\e68f"
+}
+
+.tarrot-icon-vip-card:before {
+    content: "\e690"
+}
+
+.tarrot-icon-up:before {
+    content: "\e688"
+}
+
+.tarrot-icon-up-circle:before {
+    content: "\e689"
+}
+
+.tarrot-icon-trash:before {
+    content: "\e682"
+}
+
+.tarrot-icon-twitter:before {
+    content: "\e683"
+}
+
+.tarrot-icon-tool:before {
+    content: "\e684"
+}
+
+.tarrot-icon-telegram:before {
+    content: "\e685"
+}
+
+.tarrot-icon-tinder:before {
+    content: "\e686"
+}
+
+.tarrot-icon-twitter-circle:before {
+    content: "\e687"
+}
+
+.tarrot-icon-switch:before {
+    content: "\e67f"
+}
+
+.tarrot-icon-switch-on:before {
+    content: "\e680"
+}
+
+.tarrot-icon-switch-off:before {
+    content: "\e681"
+}
+
+.tarrot-icon-success:before {
+    content: "\e67d"
+}
+
+.tarrot-icon-suse:before {
+    content: "\e67e"
+}
+
+.tarrot-icon-star:before {
+    content: "\e67b"
+}
+
+.tarrot-icon-stop:before {
+    content: "\e67c"
+}
+
+.tarrot-icon-sound-big:before {
+    content: "\e673"
+}
+
+.tarrot-icon-sound-line:before {
+    content: "\e678"
+}
+
+.tarrot-icon-sound-horn:before {
+    content: "\e679"
+}
+
+.tarrot-icon-sogou:before {
+    content: "\e66d"
+}
+
+.tarrot-icon-smile:before {
+    content: "\e66e"
+}
+
+.tarrot-icon-skull:before {
+    content: "\e66f"
+}
+
+.tarrot-icon-search:before {
+    content: "\e670"
+}
+
+.tarrot-icon-s:before {
+    content: "\e671"
+}
+
+.tarrot-icon-setting:before {
+    content: "\e672"
+}
+
+.tarrot-icon-reply:before {
+    content: "\e668"
+}
+
+.tarrot-icon-redhat:before {
+    content: "\e669"
+}
+
+.tarrot-icon-right:before {
+    content: "\e66a"
+}
+
+.tarrot-icon-reload:before {
+    content: "\e66b"
+}
+
+.tarrot-icon-refresh:before {
+    content: "\e66c"
+}
+
+.tarrot-icon-plus:before {
+    content: "\e665"
+}
+
+.tarrot-icon-play:before {
+    content: "\e666"
+}
+
+.tarrot-icon-qq:before {
+    content: "\e667"
+}
+
+.tarrot-icon-plane-send:before {
+    content: "\e65c"
+}
+
+.tarrot-icon-plane-departure:before {
+    content: "\e65d"
+}
+
+.tarrot-icon-plane-up:before {
+    content: "\e65e"
+}
+
+.tarrot-icon-plane-paper:before {
+    content: "\e65f"
+}
+
+.tarrot-icon-plane:before {
+    content: "\e660"
+}
+
+.tarrot-icon-plane-fly:before {
+    content: "\e661"
+}
+
+.tarrot-icon-plane-up-fill:before {
+    content: "\e662"
+}
+
+.tarrot-icon-plane-send-fill:before {
+    content: "\e663"
+}
+
+.tarrot-icon-plane-takeoff:before {
+    content: "\e664"
+}
+
+.tarrot-icon-picture-fill:before {
+    content: "\e658"
+}
+
+.tarrot-icon-pin:before {
+    content: "\e659"
+}
+
+.tarrot-icon-pin-left:before {
+    content: "\e65a"
+}
+
+.tarrot-icon-picture:before {
+    content: "\e65b"
+}
+
+.tarrot-icon-microsoft:before {
+    content: "\e651"
+}
+
+.tarrot-icon-m:before {
+    content: "\e652"
+}
+
+.tarrot-icon-modx:before {
+    content: "\e653"
+}
+
+.tarrot-icon-meetup:before {
+    content: "\e654"
+}
+
+.tarrot-icon-mule:before {
+    content: "\e655"
+}
+
+.tarrot-icon-music:before {
+    content: "\e656"
+}
+
+.tarrot-icon-more:before {
+    content: "\e657"
+}
+
+.tarrot-icon-loading:before {
+    content: "\e650"
+}
+
+.tarrot-icon-l:before {
+    content: "\e64a"
+}
+
+.tarrot-icon-itunes:before {
+    content: "\e64b"
+}
+
+.tarrot-icon-info:before {
+    content: "\e64c"
+}
+
+.tarrot-icon-laugh:before {
+    content: "\e64d"
+}
+
+.tarrot-icon-left:before {
+    content: "\e64e"
+}
+
+.tarrot-icon-list:before {
+    content: "\e64f"
+}
+
+.tarrot-icon-help:before {
+    content: "\e647"
+}
+
+.tarrot-icon-horn:before {
+    content: "\e648"
+}
+
+.tarrot-icon-home:before {
+    content: "\e649"
+}
+
+.tarrot-icon-headset:before {
+    content: "\e644"
+}
+
+.tarrot-icon-headset-c:before {
+    content: "\e645"
+}
+
+.tarrot-icon-heart:before {
+    content: "\e646"
+}
+
+.tarrot-icon-good:before {
+    content: "\e642"
+}
+
+.tarrot-icon-google:before {
+    content: "\e643"
+}
+
+.tarrot-icon-fullscreen-exit:before {
+    content: "\e63e"
+}
+
+.tarrot-icon-fullscreen:before {
+    content: "\e63f"
+}
+
+.tarrot-icon-fan:before {
+    content: "\e640"
+}
+
+.tarrot-icon-flag:before {
+    content: "\e641"
+}
+
+.tarrot-icon-eye-left:before {
+    content: "\e639"
+}
+
+.tarrot-icon-error:before {
+    content: "\e63a"
+}
+
+.tarrot-icon-eye-right:before {
+    content: "\e63b"
+}
+
+.tarrot-icon-exchange:before {
+    content: "\e63c"
+}
+
+.tarrot-icon-edge:before {
+    content: "\e63d"
+}
+
+.tarrot-icon-down:before {
+    content: "\e634"
+}
+
+.tarrot-icon-diaspora:before {
+    content: "\e635"
+}
+
+.tarrot-icon-devil:before {
+    content: "\e636"
+}
+
+.tarrot-icon-degree:before {
+    content: "\e637"
+}
+
+.tarrot-icon-d:before {
+    content: "\e638"
+}
+
+.tarrot-icon-close:before {
+    content: "\e63a"
+}
+
+.tarrot-icon-circle:before {
+    content: "\e62f"
+}
+
+.tarrot-icon-cry-fill:before {
+    content: "\e630"
+}
+
+.tarrot-icon-copy:before {
+    content: "\e631"
+}
+
+.tarrot-icon-cry:before {
+    content: "\e632"
+}
+
+.tarrot-icon-close-bg:before {
+    content: "\e633"
+}
+
+.tarrot-icon-bing:before {
+    content: "\e62b"
+}
+
+.tarrot-icon-bell:before {
+    content: "\e62c"
+}
+
+.tarrot-icon-baidu:before {
+    content: "\e62d"
+}
+
+.tarrot-icon-arrow-right:before {
+    content: "\e625"
+}
+
+.tarrot-icon-arrow-left:before {
+    content: "\e626"
+}
+
+.tarrot-icon-arrow-up:before {
+    content: "\e627"
+}
+
+.tarrot-icon-arrow-down:before {
+    content: "\e628"
+}
+
+.tarrot-icon-arrow-thin-down:before {
+    content: "\e629"
+}
+
+.tarrot-icon-arrow-thin-up:before {
+    content: "\e62a"
+}
+
+.tarrot-icon-android:before {
+    content: "\e622"
+}
+
+.tarrot-icon-apple:before {
+    content: "\e623"
+}
+
+.tarrot-icon-angular:before {
+    content: "\e624"
+}
+
+.tarrot-icon-alibaba:before {
+    content: "\e621"
+}
+
+.tarrot-icon-deepl:before {
+    content: "\e619"
+}
+
+.tarrot-icon-favicon::before {
+    content          : '';
+    position         : absolute;
+    left             : 10px;
+    top              : 10px;
+    width            : 16px;
+    height           : 16px;
+    background-image : url(../icon/128.png);
+    background-repeat: no-repeat;
+    background-size  : 100% 100%
+}
+
+.tarrot_text_nowrap {
+    white-space  : nowrap;
+    text-overflow: ellipsis;
+    overflow     : hidden
+}
+
+.tarrot_body_dark {
+    background: #293742
+}
